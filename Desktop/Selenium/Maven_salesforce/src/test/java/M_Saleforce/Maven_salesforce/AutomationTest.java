@@ -28,7 +28,7 @@ import com.relevantcodes.extentreports.LogStatus;
 	//Initialize browser
 	driver=new ChromeDriver();
 	}
-
+        System.out.println("Salesforce first 4 test case pushed from dev to UAT")
 	@Test(priority=1)
 	public static void launchURL() {
 
